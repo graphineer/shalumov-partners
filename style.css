@@ -487,7 +487,8 @@ img + button:hover,
   height: 360px;
   max-width: 360px;
   max-height: 360px;
-  object-fit: contain;
+  object-fit: cover; /* only crop second profile */
+  object-position: center top;
   display: block;
   margin: 0 auto;
   border-radius: 0;
@@ -505,7 +506,8 @@ img + button:hover,
   height: 360px;
   max-width: 360px;
   max-height: 360px;
-  object-fit: contain;
+  object-fit: contain; /* first profile: no cropping */
+  object-position: center center;
   display: block;
   margin: 0 auto;
 }
@@ -536,6 +538,41 @@ img + button:hover,
 .button:hover {
   background-color: rgb(216, 194, 194);
   cursor: pointer;
+}
+
+@media (max-width: 900px){
+  #portrait,
+  #portrait-berov{
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+    gap: 2rem;
+  }
+  .portrait-image{
+    max-width: 320px;
+    flex: 0 0 320px;
+  }
+  .portrait-image img,
+  .portrait-avatar-img{
+    width: 320px;
+    height: 320px;
+    max-width: 320px;
+    max-height: 320px;
+  }
+  .portrait-image img{
+    object-fit: contain;
+    object-position: center center;
+  }
+  .portrait-avatar-img{
+    object-fit: cover;
+    object-position: center top;
+  }
+  .portrait-text{
+    width: 100%;
+    max-width: 760px;
+    min-width: auto;
+    padding: 2rem 1.5rem;
+  }
 }
 
 
