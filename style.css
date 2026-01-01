@@ -246,6 +246,7 @@ ul {
 .logo img {
   max-width: 100%; /* Ensures the image scales down if necessary */
   height: auto; /* Keeps the aspect ratio */
+}
 
 /* Main navigation */
 .main-nav{
@@ -317,7 +318,6 @@ ul {
   .main-nav .dropdown{width: 100%; text-align: center;}
   .main-nav .dropdown-menu{position: static; box-shadow: none; text-align: left;}
   .lang-select{width: 100%; display: flex; justify-content: center;}
-}
 }
 
 /* Red strip between sections */
