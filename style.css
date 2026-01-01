@@ -74,12 +74,13 @@ section#disciplines .select-animate {
 .main-nav .dropdown.open .dropdown-menu{ display: block; }
 
 @media (max-width: 800px){
+  .main-nav{ justify-content: center; }
   .main-nav ul{
     flex-direction: column;
     gap: 8px;
-    align-items: flex-end;
+    align-items: center;
   }
-  .main-nav .dropdown-menu{ position: static; box-shadow: none; padding-top: 4px; }
+  .main-nav .dropdown-menu{ position: static; box-shadow: none; padding-top: 4px; text-align: center; }
 }
 
 /* Court building hero image: reduced height */
@@ -306,11 +307,12 @@ ul {
   header{justify-content: center;}
   .main-nav{
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
   }
   .main-nav ul{
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     gap: 10px;
     padding: 12px 0;
     background: transparent;
@@ -318,7 +320,7 @@ ul {
     box-shadow: none;
   }
   .main-nav .dropdown{width: 100%; text-align: center;}
-  .main-nav .dropdown-menu{position: static; box-shadow: none; text-align: left;}
+  .main-nav .dropdown-menu{position: static; box-shadow: none; text-align: center;}
   .lang-select{width: 100%; display: flex; justify-content: center;}
 }
 
