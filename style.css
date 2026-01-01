@@ -682,6 +682,24 @@ img + button:hover,
   #contact-cta{ width: 100%; }
 }
 
+.impressum{
+  padding: 2.5rem 2rem 3rem;
+  background: #fff;
+  color: #222;
+  line-height: 1.55;
+  font-size: 0.9rem;
+}
+.impressum h2{ margin-bottom: 1rem; color: #7a1b0e; font-size: 1.05rem; }
+.impressum p{ margin: 0 0 1rem 0; }
+.impressum ul{ padding-left: 1.2rem; margin: 0 0 1rem 0; display: block; }
+.impressum li{ margin-bottom: 0.35rem; }
+.impressum a{ color: #7a1b0e; }
+.impressum a:hover{ text-decoration: underline; }
+
+@media (max-width: 640px){
+  .impressum{ padding: 2rem 1.25rem; }
+}
+
 .animate-fadein {
   animation: fade-in 4s;
 }
