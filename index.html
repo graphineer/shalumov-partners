@@ -21,7 +21,7 @@
           <li><a id="nav-home" href="#title">Home</a></li>
           <li><a id="nav-about" href="#disciplines">Über uns</a></li>
           <li class="dropdown">
-            <a id="nav-lawyers" href="#anwälte">Anwälte</a>
+            <a id="nav-lawyers" href="#anwälte" aria-expanded="false">Anwälte</a>
             <ul class="dropdown-menu">
               <li><a id="nav-daniil" href="#portrait">RA Daniil Shalumov</a></li>
               <li><a id="nav-berov" href="#portrait-berov">RA Davor Berov</a></li>
@@ -225,5 +225,28 @@
       <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 Digitale-Dienste-Gesetz (DDG) für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.</p>
       <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung oder Verbreitung außerhalb der Grenzen des Urheberrechts bedarf der schriftlichen Zustimmung.</p>
     </section>
+
+    <script>
+      // Mobile-friendly dropdown toggle for "Anwälte"
+      (function(){
+        const dropdown = document.querySelector('.main-nav .dropdown');
+        const trigger = dropdown ? dropdown.querySelector('#nav-lawyers') : null;
+        if(!dropdown || !trigger) return;
+        function isMobile(){ return window.matchMedia('(max-width: 800px)').matches; }
+        trigger.addEventListener('click', (e)=>{
+          if(isMobile()){
+            e.preventDefault();
+            const open = dropdown.classList.toggle('open');
+            trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+          }
+        });
+        document.addEventListener('click', (e)=>{
+          if(!dropdown.contains(e.target)){
+            dropdown.classList.remove('open');
+            trigger.setAttribute('aria-expanded','false');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

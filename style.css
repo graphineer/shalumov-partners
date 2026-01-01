@@ -71,11 +71,11 @@ section#disciplines .select-animate {
 }
 .main-nav .dropdown-menu li a{ display: block; padding: 8px 16px; color: #222; }
 .main-nav .dropdown:hover .dropdown-menu, .main-nav .dropdown:focus-within .dropdown-menu{ display: block; }
+.main-nav .dropdown.open .dropdown-menu{ display: block; }
 
 @media (max-width: 800px){
   .main-nav ul{ flex-direction: column; gap: 8px; }
-  /* Show dropdown links on mobile without hover */
-  .main-nav .dropdown-menu{ position: static; box-shadow: none; display: block; padding-top: 4px; }
+  .main-nav .dropdown-menu{ position: static; box-shadow: none; padding-top: 4px; }
 }
 
 /* Court building hero image: reduced height */
@@ -291,6 +291,9 @@ ul {
 }
 .main-nav .dropdown:hover .dropdown-menu,
 .main-nav .dropdown:focus-within .dropdown-menu{
+  display: block;
+}
+.main-nav .dropdown.open .dropdown-menu{
   display: block;
 }
 
