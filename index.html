@@ -16,10 +16,7 @@
       <div class="logo select-animate">
         <img src="./assets/logo.png" alt="" srcset="" />
       </div>
-      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="main-nav" class="main-nav">
+      <nav class="main-nav">
         <ul>
           <li><a id="nav-home" href="#title">Home</a></li>
           <li><a id="nav-about" href="#disciplines">Über uns</a></li>
@@ -171,25 +168,6 @@
         <div class="contact-adress">
           <p class="select-animate">
             Görresstraße 24 <br />
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function(){
-        const toggle = document.querySelector('.menu-toggle');
-        const nav = document.getElementById('main-nav');
-        if(toggle && nav){
-          toggle.addEventListener('click', ()=>{
-            const open = document.body.classList.toggle('nav-open');
-            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-          });
-          nav.querySelectorAll('a').forEach(a=>{
-            a.addEventListener('click', ()=>{
-              document.body.classList.remove('nav-open');
-              toggle.setAttribute('aria-expanded','false');
-            });
-          });
-        }
-      });
-    </script>
 
             80798 München <br />
 
