@@ -1,0 +1,180 @@
+const translations = {
+  de: {
+    '#nav-home': 'Home',
+    '#nav-about': 'Über uns',
+    '#nav-lawyers': 'Anwälte',
+    '#nav-daniil': 'RA Daniil Shalumov',
+    '#nav-berov': 'RA Davor Berov',
+    '#nav-contact': 'Kontakt',
+    '#headline': 'Ihr Recht verdient vollen Einsatz.',
+    '#slogan': 'Indivduelle Rechtsberatung im Strafrecht, Wirtschaftsstrafrecht und Wirtschaftsrecht.',
+    '#expertise': 'Unsere Expertise:',
+    '#ueber-p1': 'Wir sind eine wirtschaftsnahe Rechtsanwaltskanzlei im Herzen Münchens mit Schwerpunkt im Strafrecht, Wirtschaftsstrafrecht und Wirtschaftsrecht. Mit einem Netzwerk erfahrener Rechtsanwälte beraten und vertreten wir Mandanten bundesweit mit hohem fachlichem Anspruch und konsequentem Einsatz.',
+    '#ueber-p2': 'Darüber hinaus sind wir breit aufgestellt und bearbeiten auch Mandate aus dem Zivilrecht, insbesondere die Durchsetzung von Forderungen, das Insolvenzrecht, Mietrecht, Arbeitsrecht, Familienrecht sowie Erbrecht. So können wir Mandanten auch bei komplexen, fachübergreifenden Fragestellungen umfassend und lösungsorientiert begleiten.',
+    '#ueber-p3': 'Unsere internationale Ausrichtung ermöglicht eine verlässliche Beratung in deutscher, englischer, russischer, mazedonischer und bulgarischer Sprache. Jedes Mandat bearbeiten wir mit maximaler Sorgfalt und vollem Einsatz, um die Interessen unserer Mandanten nachdrücklich und zielgerichtet durchzusetzen.',
+    '#card1-title': 'Allgemeines Strafrecht',
+    '#card1-text': 'Wir verteidigen Mandanten im Strafrecht mit voller Durchsetzungskraft – vom Ermittlungsverfahren bis zur Hauptverhandlung. Unsere Tätigkeit umfasst unter anderem Körperverletzung, Betrug, Diebstahl, Raub, Bedrohung, Nötigung, Sexualstraftaten, Drogendelikte (BtMG), Verkehrsstrafsachen, Hausdurchsuchungen sowie Haftfragen. In jeder Phase setzen wir uns konsequent für Ihre Rechte ein und entwickeln eine klare, belastbare Verteidigungsstrategie.',
+    '#card2-title': 'Wirtschaftsstrafrecht',
+    '#card2-text': 'Im Wirtschaftsstrafrecht ist eine akribische Analyse der Akten und wirtschaftlichen Hintergründe entscheidend. Wir vertreten Mandanten insbesondere bei Betrug, Untreue, Steuerhinterziehung, Geldwäsche, Korruption, Insolvenzstraftaten, Subventionsbetrug sowie in komplexen Ermittlungsverfahren gegen Geschäftsführer und Führungskräfte. Unsere Anwälte denken wie Unternehmer und bringen Erfahrung aus führenden Wirtschaftskanzleien mit, um strafrechtliche Risiken wirtschaftlich sinnvoll zu steuern.',
+    '#card3-title': 'Wirtschaftsrecht',
+    '#card3-text': 'Im Wirtschaftsrecht beraten und vertreten wir Unternehmen, Gesellschafter und Gründer mit einem klaren Verständnis für unternehmerische Abläufe. Unsere Schwerpunkte liegen im Gesellschaftsrecht, Insolvenzrecht, bei der Gründung von Unternehmen, Umstrukturierungen sowie der laufenden rechtlichen Begleitung von Unternehmen. Wir verbinden juristische Präzision mit wirtschaftlichem Denken und entwickeln praxisnahe, belastbare Lösungen.',
+    '#cta-daniil': 'Jetzt Kontakt aufnehmen',
+    '#cta-berov': 'Jetzt Kontakt aufnehmen',
+    '#daniil-p1': 'Rechtsanwalt Daniil Shalumov ist als Rechtsanwalt in München tätig und berät nationale wie internationale Mandanten in den Bereichen Strafrecht und Wirtschaftsstrafrecht, Handels- und Gesellschaftsrecht sowie Insolvenzrecht. Die Beratung erfolgt auf Deutsch, Englisch und Russisch und richtet sich sowohl an Unternehmer, Führungskräfte als auch an Privatpersonen mit komplexen rechtlichen Fragestellungen.',
+    '#daniil-p2': 'Seine juristische Ausbildung und praktische Erfahrung sammelte Rechtsanwalt Shalumov unter anderem in einer international tätigen Großkanzlei sowie im Ausland. Diese Stationen haben seinen Blick für wirtschaftliche Zusammenhänge, internationale Sachverhalte und strategische Prozessführung nachhaltig geprägt.',
+    '#daniil-p3': 'Als ehemaliger Leistungssportler steht Rechtsanwalt Shalumov für ein hohes Maß an Disziplin, Belastbarkeit und Zielorientierung. Was im Sport Voraussetzung für Erfolg ist, gilt für ihn ebenso im Mandat: maximales Engagement, strategischer Weitblick und absolute Fokussierung auf das bestmögliche Ergebnis.',
+    '#daniil-p4': 'Im Straf- und Wirtschaftsstrafrecht entwickelt er präzise, realistisch kalkulierte Verteidigungsstrategien, die sowohl rechtlich fundiert als auch taktisch durchdacht sind. Seine Mandanten profitieren von einer klaren, ehrlichen Beratung, konsequenter Interessenvertretung und einem kämpferischen Einsatz, der stets von juristischer Präzision getragen ist.',
+    '#berov-p1': 'Rechtsanwalt Berov ist Partner der Rechtsanwaltskanzlei Shalumov & Partner. Er berät Mandanten schwerpunktmäßig im Ausländer-, Arbeits- und Familienrecht. Als in München zugelassener Rechtsanwalt absolvierte er seine juristische Ausbildung in München, Peking und Brüssel.',
+    '#berov-p2': 'Aufgrund seiner langjährigen beruflichen Tätigkeit in internationalen Großkanzleien sowie bei Behörden, Gerichten und Handelskammern verfügt Rechtsanwalt Berov über ein hohes Maß an fachlicher Kompetenz, strategischem Denkvermögen und einen souveränen Umgang auch mit komplexen rechtlichen Fragestellungen.',
+    '#berov-p3': 'Ein besonderes Anliegen seiner Tätigkeit ist die engagierte rechtliche Begleitung bulgarischer und mazedonischer Mandanten in Deutschland, denen er mit fachlicher Expertise, kulturellem Verständnis und persönlichem Einsatz zur Seite steht – insbesondere in rechtlich und menschlich anspruchsvollen Fällen mit grenzüberschreitendem Bezug.',
+    '#berov-p4': 'Er berät in Bulgarisch, Mazedonisch, Deutsch und Englisch.'
+  },
+  en: {
+    '#nav-home': 'Home',
+    '#nav-about': 'About us',
+    '#nav-lawyers': 'Attorneys',
+    '#nav-daniil': 'RA Daniil Shalumov',
+    '#nav-berov': 'RA Davor Berov',
+    '#nav-contact': 'Contact',
+    '#headline': 'Your rights deserve full commitment.',
+    '#slogan': 'Individual legal advice in criminal law, economic criminal law and commercial law.',
+    '#expertise': 'Our expertise:',
+    '#ueber-p1': 'We are a business-oriented law firm in the heart of Munich focusing on criminal law, economic criminal law and commercial law. With a network of experienced lawyers we advise and represent clients nationwide with high professional standards and consistent commitment.',
+    '#ueber-p2': 'In addition, we are broadly positioned and also handle mandates from civil law, in particular the enforcement of claims, insolvency law, tenancy law, labor law, family law and inheritance law. This enables us to support clients comprehensively and solution-oriented even in complex, cross-disciplinary matters.',
+    '#ueber-p3': 'Our international orientation enables reliable advice in German, English, Russian, Macedonian and Bulgarian. We handle every mandate with maximum care and full dedication to effectively and purposefully assert the interests of our clients.',
+    '#card1-title': 'General criminal law',
+    '#card1-text': 'We defend clients in criminal matters with full determination — from investigation to trial. Our work covers bodily harm, fraud, theft, robbery, threats, coercion, sexual offenses, narcotics (BtMG), traffic offenses, searches and detention issues. At every stage we fight for your rights and build a clear, resilient defense strategy.',
+    '#card2-title': 'White-collar crime',
+    '#card2-text': 'In economic criminal law, meticulous analysis of files and business context is crucial. We represent clients in fraud, breach of trust, tax evasion, money laundering, corruption, insolvency offenses, subsidy fraud and complex investigations against managing directors and executives. We think like entrepreneurs and bring experience from leading business law firms to manage criminal risks sensibly.',
+    '#card3-title': 'Commercial law',
+    '#card3-text': 'In commercial law we advise and represent companies, shareholders and founders with a clear understanding of business processes. We focus on corporate law, insolvency, company formation, restructurings and ongoing legal support for businesses. We combine legal precision with commercial thinking to deliver practical, reliable solutions.',
+    '#cta-daniil': 'Contact us now',
+    '#cta-berov': 'Contact us now',
+    '#daniil-p1': 'Attorney Daniil Shalumov practices law in Munich and advises national and international clients in criminal law and economic criminal law, commercial and corporate law as well as insolvency law. He advises in German, English and Russian and serves businesses, executives and private clients with complex legal issues.',
+    '#daniil-p2': 'He gained legal training and practical experience, among other places, in an internationally active large law firm and abroad. These stations have shaped his view of economic contexts, international matters and strategic litigation.',
+    '#daniil-p3': 'As a former competitive athlete, attorney Shalumov stands for a high degree of discipline, resilience and goal orientation. What is required for success in sports also applies to his mandates: maximum commitment, strategic vision and absolute focus on the best possible result.',
+    '#daniil-p4': 'In criminal and economic criminal law he develops precise, realistically calculated defense strategies that are both legally sound and tactically thought out. His clients benefit from clear, honest advice, consistent representation and a combative approach grounded in legal precision.',
+    '#berov-p1': 'Attorney Berov is a partner at the law firm Shalumov & Partner. He advises clients primarily in immigration, labor and family law. As a lawyer admitted in Munich, he completed his legal studies in Munich, Beijing and Brussels.',
+    '#berov-p2': 'Thanks to his many years of professional experience in international law firms as well as internships at the European Commission, executive authorities, courts and chambers of commerce, Attorney Berov possesses a high level of professional competence, strategic thinking and a confident approach to resolving complex legal issues.',
+    '#berov-p3': 'A particular priority in his work is the committed legal support of Bulgarian and Macedonian clients in Germany, whom he assists with professional expertise, cultural understanding and personal dedication — especially in legally and humanly challenging cross-border cases.',
+    '#berov-p4': 'He advises in Bulgarian, Macedonian, German and English.'
+  },
+  ru: {
+    '#nav-home': 'Главная',
+    '#nav-about': 'О нас',
+    '#nav-lawyers': 'Адвокаты',
+    '#nav-daniil': 'РА Даниил Шалумов',
+    '#nav-berov': 'РА Давор Беров',
+    '#nav-contact': 'Контакты',
+    '#headline': 'Ваше право заслуживает полной отдачи.',
+    '#slogan': 'Индивидуальная юридическая консультация в уголовном праве, экономическом уголовном праве и коммерческом праве.',
+    '#expertise': 'Наша экспертность:',
+    '#ueber-p1': 'Мы — экономически ориентированная адвокатская контора в сердце Мюнхена с фокусом на уголовном праве, экономическом уголовном праве и коммерческом праве. Сеть опытных адвокатов позволяет нам консультировать и представлять клиентов по всей стране на высоком профессиональном уровне и с полной отдачей.',
+    '#ueber-p2': 'Кроме того, мы широко представлены и занимаемся также гражданско-правовыми делами, в частности взысканием требований, банкротством, жилищным правом, трудовым правом, семейным правом и наследственным правом. Мы сопровождаем клиентов комплексно и ориентированно на решение.',
+    '#ueber-p3': 'Наша международная направленность обеспечивает надежное консультирование на немецком, английском, русском, македонском и болгарском языках. Каждое поручение мы выполняем с максимальной тщательностью и полной самоотдачей, чтобы отстоять интересы наших клиентов.',
+    '#card1-title': 'Общее уголовное право',
+    '#card1-text': 'Мы защищаем клиентов по уголовным делам с полной решимостью — от следствия до суда. В сферу нашей работы входят, среди прочего, причинение вреда здоровью, мошенничество, кража, разбой, угрозы, вымогательство, половые преступления, наркотики (BtMG), дорожные правонарушения, обыски и вопросы заключения под стражу. На каждом этапе мы последовательно отстаиваем ваши права и строим четкую, устойчивую стратегию защиты.',
+    '#card2-title': 'Экономические преступления',
+    '#card2-text': 'В экономическом уголовном праве решающее значение имеет тщательный анализ материалов и делового контекста. Мы представляем клиентов по делам о мошенничестве, злоупотреблении доверием, уклонении от налогов, отмывании денег, коррупции, преступлениях при банкротстве, субсидионном мошенничестве, а также в сложных расследованиях против руководителей. Мы мыслим как предприниматели и используем опыт ведущих экономических фирм, чтобы разумно управлять уголовными рисками.',
+    '#card3-title': 'Торговое и корпоративное право',
+    '#card3-text': 'В сфере торгового права мы консультируем компании, участников и основателей, хорошо понимая бизнес-процессы. Наши акценты — корпоративное право, несостоятельность, создание компаний, реструктуризации и постоянное юридическое сопровождение бизнеса. Мы соединяем юридическую точность с предпринимательским мышлением и предлагаем практичные, надежные решения.',
+    '#cta-daniil': 'Связаться сейчас',
+    '#cta-berov': 'Связаться сейчас',
+    '#daniil-p1': 'Адвокат Даниил Шалумов работает в Мюнхене и консультирует национальных и международных клиентов в области уголовного и экономического уголовного права, торгового и корпоративного права, а также банкротства. Консультации проводятся на немецком, английском и русском языках.',
+    '#daniil-p2': 'Юридическое образование и практический опыт он получил, в том числе, в международной крупной фирме и за рубежом. Эти этапы сформировали его взгляд на экономические связи, международные вопросы и стратегическое ведение дел.',
+    '#daniil-p3': 'Как бывший спортсмен высокого уровня, адвокат Шалумов характеризуется дисциплиной, стрессоустойчивостью и целеустремленностью. То, что необходимо для успеха в спорте, применимо и в работе с клиентами: максимальная вовлеченность, стратегическое мышление и концентрация на наилучшем результате.',
+    '#daniil-p4': 'В уголовном и экономическом уголовном праве он разрабатывает точные, реалистично просчитанные стратегии защиты, которые юридически обоснованы и тактически продуманы. Клиенты получают честные советы, последовательное представительство и боевой настрой, подкрепленный юридической точностью.',
+    '#berov-p1': 'Rechtsanwalt Berov ist Partner der Rechtsanwaltskanzlei Shalumov & Partner. Er berät Mandanten schwerpunktmäßig im Ausländer-, Arbeits- und Familienrecht. Als in München zugelassener Rechtsanwalt absolvierte er seine juristische Ausbildung in München, Peking und Brüssel.',
+    '#berov-p2': 'Aufgrund seiner langjährigen beruflichen Tätigkeit in internationalen Großkanzleien sowie bei Behörden, Gerichten und Handelskammern verfügt Rechtsanwalt Berov über ein hohes Maß an fachlicher Kompetenz, strategischem Denkvermögen und einen souveränen Umgang auch mit komplexen rechtlichen Fragestellungen.',
+    '#berov-p3': 'Ein besonderes Anliegen seiner Tätigkeit ist die engagierte rechtliche Begleitung bulgarischer und mazedonischer Mandanten in Deutschland, denen er mit fachlicher Expertise, kulturellem Verständnis und persönlichem Einsatz zur Seite steht – insbesondere in rechtlich und menschlich anspruchsvollen Fällen mit grenzüberschreitendem Bezug.',
+    '#berov-p4': 'Er berät in Bulgarisch, Mazedonisch, Deutsch und Englisch.'
+  },
+  bg: {
+    '#nav-home': 'Начало',
+    '#nav-about': 'За нас',
+    '#nav-lawyers': 'Адвокати',
+    '#nav-daniil': 'РА Даниил Шалумов',
+    '#nav-berov': 'РА Давор Беров',
+    '#nav-contact': 'Контакт',
+    '#headline': 'Вашето право заслужава пълна отдаденост.',
+    '#slogan': 'Индивидуални правни консултации в наказателното право, икономическото наказателно право и търговското право.',
+    '#expertise': 'Нашата експертиза:',
+    '#ueber-p1': 'Ние сме икономически ориентирана адвокатска кантора в сърцето на Мюнхен със специализация в наказателното право, икономическото наказателно право и търговското право. С мрежа от опитни адвокати консултираме и представляваме клиенти в цялата страна с висок професионален капацитет и последователно ангажиране.',
+    '#ueber-p2': 'Освен това сме широко позиционирани и обработваме дела и в областта на гражданското право, по-специално принудително изпълнение на вземания, несъстоятелност, наемно право, трудово право, семейно право и наследствено право. Така можем да подкрепяме клиентите си при сложни, междудисциплинарни въпроси по цялостен и ориентиран към решения подход.',
+    '#ueber-p3': 'Нашата международна ориентация позволява надеждно консултиране на немски, английски, руски, македонски и български език. Всяко възложено ни дело се обработва с максимална грижа и пълно ангажиране, за да защитим интересите на клиентите ни ефективно и целенасочено.',
+    '#card1-title': 'Общо наказателно право',
+    '#card1-text': 'Защитаваме клиенти по наказателни дела с пълна решителност – от досъдебното производство до съдебната фаза. Работата ни обхваща телесни повреди, измама, кражба, грабеж, заплахи, изнудване, сексуални престъпления, наркотици (BtMG), транспортни престъпления, обиски и въпроси за задържане. На всеки етап защитаваме правата ви и изграждаме ясна, надеждна стратегия.',
+    '#card2-title': 'Икономически престъпления',
+    '#card2-text': 'В икономическото наказателно право решаващи са прецизният анализ на материалите и бизнес контекста. Представляваме клиенти при измама, злоупотреба с доверие, данъчни нарушения, изпиране на пари, корупция, престъпления при несъстоятелност, измами със субсидии, както и при сложни разследвания срещу управители и ръководители. Мислим като предприемачи и използваме опит от водещи бизнес кантори, за да управляваме наказателните рискове разумно.',
+    '#card3-title': 'Търговско право',
+    '#card3-text': 'В търговското право консултираме и представляваме компании, съдружници и основатели с ясно разбиране за бизнес процесите. Акцентите ни са корпоративно право, несъстоятелност, учредяване на компании, преструктурирания и текущо правно обслужване. Съчетававаме юридическа прецизност с предприемаческо мислене за практични, надеждни решения.',
+    '#cta-daniil': 'Свържете се с нас',
+    '#cta-berov': 'Свържете се с нас',
+    '#daniil-p1': 'Адвокат Даниил Шалумов практикува в Мюнхен и консултира национални и международни клиенти в областта на наказателното и икономическото наказателно право, търговското и корпоративното право, както и в областта на несъстоятелността. Консултациите се предлагат на немски, английски и руски.',
+    '#daniil-p2': 'Той е придобил юридическото си образование и практически опит, между другото, в международна голяма адвокатска кантора и в чужбина. Тези етапи са формирали неговия поглед върху икономическите връзки, международните въпроси и стратегическото водене на дела.',
+    '#daniil-p3': 'Като бивш спортист на високо ниво, адвокат Шалумов е характеризиран с дисциплина, устойчивост и целенасоченост. Това, което е необходимо за успеха в спорта, се прилага и в работата с клиентите: максимална отдаденост, стратегическо мислене и фокус върху възможно най-добрия резултат.',
+    '#daniil-p4': 'В областта на наказателното и икономическото наказателно право той разработва прецизни, реалистично пресметнати защитни стратегии, които са както юридически обосновани, така и тактически обмислени. Клиентите му се възползват от ясни, честни съвети, последователно представителство и борбен подход, поддържан от юридическа точност.',
+    // Special Bulgarian translation for Berov provided by user
+    '#berov-p1': 'Адвокат Беров е партньор в адвокатска кантора Shalumov & Partner. Той консултира клиенти основно в областите на имиграционното право, трудовото право и семейното право. Като адвокат, вписан в Адвокатската колегия в Мюнхен, той е получил юридическото си образование в Мюнхен, Пекин и Брюксел.',
+    '#berov-p2': 'Благодарение на дългогодишния си професионален опит в международни адвокатски кантори, както и стажове в Европейската комисия, органи на изпълнителната власт, съдилища и търговски камари, адвокат Беров разполага с висока степен на професионална компетентност, стратегическо мислене и уверен подход при разрешаването на сложни правни въпроси.',
+    '#berov-p3': 'Особен приоритет в неговата дейност е ангажираната правна подкрепа на български и македонски клиенти в Германия, на които той оказва съдействие с професионална експертиза, културно разбиране и лична отдаденост – особено в правно и човешки предизвикателни случаи с трансграничен елемент.',
+    '#berov-p4': 'Той консултира на български, македонски, немски и английски език.'
+  },
+  mk: {
+    '#nav-home': 'Почетна',
+    '#nav-about': 'За нас',
+    '#nav-lawyers': 'Адвокати',
+    '#nav-daniil': 'РА Даниил Шалумов',
+    '#nav-berov': 'РА Давор Беров',
+    '#nav-contact': 'Контакт',
+    '#headline': 'Вашето право заслужува целосна посветеност.',
+    '#slogan': 'Индивидуално правно советување во кривичното право, економското кривично право и трговското право.',
+    '#expertise': 'Нашата експертиза:',
+    '#ueber-p1': 'Ние сме економски ориентирана адвокатска канцеларија во срцето на Минхен со фокус на кривичното право, економското кривично право и трговското право. Со мрежа на искусни адвокати, нудиме консултации и застапување на клиенти низ целата држава со висок професионален стандард и посветен пристап.',
+    '#ueber-p2': 'Дополнително, сме широко поставени и обработуваме и предмети од граѓанското право, во особено извршување на побарувања, стечајно право, кирија, работно право, семејно и наследно право. Така можеме да ги поддржиме клиентите и во комплексни, меѓудисциплинарни прашања со практичен и ориентиран кон решенија пристап.',
+    '#ueber-p3': 'Нашата интернационална ориентација овозможува сигурно советување на германски, англиски, руски, македонски и бугарски јазик. Секоја задача ја обработуваме со максимална грижа и целосна посветеност за да ги застапиме интересите на нашите клиенти ефективно и со цел.',
+    '#card1-title': 'Општо кривично право',
+    '#card1-text': 'Ги браниме клиентите во кривични предмети со целосна решителност — од истрага до судење. Нашата работа опфаќа повреда, измама, кражба, разбојништво, закани, изнуда, сексуални дела, дрога (BtMG), сообраќајни прекршоци, претреси и прашања за притвор. Во секоја фаза ги штитиме вашите права и градиме јасна, издржлива одбранбена стратегија.',
+    '#card2-title': 'Економски кривични дела',
+    '#card2-text': 'Во економското кривично право пресудни се прецизната анализа на предметот и деловниот контекст. Ги застапуваме клиентите при измама, злоупотреба на доверба, даночно затајување, перење пари, корупција, дела при стечај, измами со субвенции и сложени истраги против управители и директори. Размислуваме како претприемачи и користиме искуство од водечки деловни канцеларии за разумно управување со кривичните ризици.',
+    '#card3-title': 'Трговско право',
+    '#card3-text': 'Во трговското право советуваме и застапуваме компании, сопственици и основачи со јасно разбирање на деловните процеси. Фокусот ни е на корпоративно право, стечај, основање компании, реструктурирања и тековна правна поддршка. Спојуваме правна прецизност со деловно размислување за практични, сигурни решенија.',
+    '#cta-daniil': 'Контактирајте нè сега',
+    '#cta-berov': 'Контактирајте нè сега',
+    '#daniil-p1': 'Адвокат Даниил Шалумов работи во Минхен и ги советува националните и меѓународните клиенти во кривичното и економското кривично право, трговското и корпоративното право, како и во стечајните прашања. Консултациите се достапни на германски, англиски и руски.',
+    '#daniil-p2': 'Тој стекнал правно образование и практично искуство, меѓу другото, во меѓународна голема адвокатска канцеларија и во странство. Тие искуства ја обликувале неговата перспектива за економските врски, меѓународните прашања и стратешкото водење на постапки.',
+    '#daniil-p3': 'Како поранешен врвен спортист, адвокат Шалумов е познат по дисциплина, издржливост и целосна фокусираност. Она што е потребно за успехот во спортот важи и за работата со клиентите: максимална посветеност, стратешко размислување и фокус на најдобриот можен резултат.',
+    '#daniil-p4': 'Во кривичното и економското кривично право тој развива прецизни, реалистично пресметани стратегии за одбрана кои се правно засновани и тактички промислени. Клиентите добиваат јасни, искрени совети, доследно застапување и борбен пристап поддржан со правна прецизност.',
+    // Special Macedonian translation for Berov provided by user
+    '#berov-p1': 'Адвокат Беров е партнер во адвокатската канцеларија Shalumov & Partner. Тој ги советува клиентите првенствено во областа на имиграциското право, работното право и семејното право. Како адвокат запишан во Адвокатската комора во Минхен, своето правно образование го стекнал во Минхен, Пекинг и Брисел.',
+    '#berov-p2': 'Благодарение на долгогодишното професионално искуство во меѓународни адвокатски канцеларии, како и на стажирањето во Европската комисија, органи на извршната власт, судови и стопански комори, адвокат Беров поседува високо ниво на стручна компетентност, стратешко размислување и сигурен пристап при решавање на сложени правни прашања.',
+    '#berov-p3': 'Посебна лична кауза на адвокат Беров е ангажираната правна поддршка на бугарски и македонски клиенти во Германија, на кои им нуди стручна експертиза, културно разбирање и силна лична посветеност – особено во правно и човечки предизвикувачки случаи со прекуграничен елемент.',
+    '#berov-p4': 'Тој советува на бугарски, македонски, германски и англиски јазик.'
+  }
+};
+
+function applyTranslations(lang){
+  const map = translations[lang] || translations['de'] || {};
+  Object.keys(map).forEach(selector => {
+    const el = document.querySelector(selector);
+    if(el) el.textContent = map[selector];
+  });
+}
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  const select = document.getElementById('lang-select');
+  const initial = (select && select.value) || 'de';
+
+  function setLang(lang){
+    const targetLang = translations[lang] ? lang : 'de';
+    applyTranslations(targetLang);
+    if(select) select.value = targetLang;
+  }
+
+  if(select){
+    select.addEventListener('change', ()=> setLang(select.value));
+  }
+
+  setLang(initial);
+  window.setLanguage = setLang;
+});
