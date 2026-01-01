@@ -74,7 +74,8 @@ section#disciplines .select-animate {
 
 @media (max-width: 800px){
   .main-nav ul{ flex-direction: column; gap: 8px; }
-  .main-nav .dropdown-menu{ position: static; box-shadow: none; }
+  /* Show dropdown links on mobile without hover */
+  .main-nav .dropdown-menu{ position: static; box-shadow: none; display: block; padding-top: 4px; }
 }
 
 /* Court building hero image: reduced height */
