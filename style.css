@@ -124,6 +124,11 @@ section#disciplines .select-animate {
 .lang-select select:focus{
   outline:2px solid rgba(122,27,14,0.18);
 }
+.lang-select{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .sr-only{
   position:absolute;
   width:1px;
@@ -213,12 +218,12 @@ body {
 
 header {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 12px;
   color: var(--dark-blue);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 12px 16px;
+  padding: 16px;
   background-color: var(--beige-background);
   width: 100%;
 }
@@ -257,7 +262,7 @@ ul {
 .main-nav{
   display: flex;
   align-items: center;
-  flex: 1 1 100%;
+  flex: 0 0 auto;
   justify-content: center;
 }
 .main-nav ul{
