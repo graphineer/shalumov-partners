@@ -1,6 +1,5 @@
 const translations = {
   de: {
-    '#nav-home': 'Home',
     '#nav-about': 'Über uns',
     '#nav-lawyers': 'Anwälte',
     '#nav-daniil': 'RA Daniil Shalumov',
@@ -31,7 +30,6 @@ const translations = {
     '#berov-p4': 'Er berät in Bulgarisch, Mazedonisch, Deutsch und Englisch.'
   },
   en: {
-    '#nav-home': 'Home',
     '#nav-about': 'About us',
     '#nav-lawyers': 'Attorneys',
     '#nav-daniil': 'RA Daniil Shalumov',
@@ -62,7 +60,6 @@ const translations = {
     '#berov-p4': 'He advises in Bulgarian, Macedonian, German and English.'
   },
   ru: {
-    '#nav-home': 'Главная',
     '#nav-about': 'О нас',
     '#nav-lawyers': 'Адвокаты',
     '#nav-daniil': 'РА Даниил Шалумов',
@@ -93,7 +90,6 @@ const translations = {
     '#berov-p4': 'Er berät in Bulgarisch, Mazedonisch, Deutsch und Englisch.'
   },
   bg: {
-    '#nav-home': 'Начало',
     '#nav-about': 'За нас',
     '#nav-lawyers': 'Адвокати',
     '#nav-daniil': 'РА Даниил Шалумов',
@@ -125,7 +121,6 @@ const translations = {
     '#berov-p4': 'Той консултира на български, македонски, немски и английски език.'
   },
   mk: {
-    '#nav-home': 'Почетна',
     '#nav-about': 'За нас',
     '#nav-lawyers': 'Адвокати',
     '#nav-daniil': 'РА Даниил Шалумов',
