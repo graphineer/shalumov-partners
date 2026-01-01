@@ -534,13 +534,13 @@ img + button:hover,
 .contact-grid {
   border-top: 0.5px var(--dark-blue) solid;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1.2fr 1fr 1fr;
   grid-gap: 0.5px;
   background-color: var(--dark-blue);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   grid-template-areas:
-    "phone-number adress space space"
-    "space2 empty empty empty";
+    "contact-cta contact-cta contact-cta"
+    "phone-number adress adress";
 }
 
 .contact-phone {
@@ -551,17 +551,45 @@ img + button:hover,
   grid-area: adress;
 }
 
+.contact-cta {
+  grid-area: contact-cta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-grid > div {
   background-color: var(--light-beige-background);
   padding: 1rem 1rem 2rem;
 }
 
-.empty2 {
-  grid-area: space;
+#contact-cta {
+  background: linear-gradient(90deg, #a22e47, #7f2239);
+  color: #fff;
+  border: 1px solid #7f2239;
+  border-radius: 12px;
+  padding: 0.9em 1.2em;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 320px;
 }
 
-.empty3 {
-  grid-area: empty;
+#contact-cta:hover {
+  background: linear-gradient(90deg, #7f2239, #a22e47);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.16);
+}
+
+@media (max-width: 900px){
+  .contact-grid{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "contact-cta"
+      "phone-number"
+      "adress";
+  }
+  .contact-cta{ justify-content: center; }
+  #contact-cta{ width: 100%; }
 }
 
 .animate-fadein {
