@@ -107,8 +107,8 @@ section#disciplines .select-animate {
   width: 100vw;
   display: block;
   margin-left: calc(50% - 50vw);
-  height: 820px;
-  max-height: 85vh;
+  height: 1066px;
+  max-height: 95vh;
   object-fit: cover;
   object-position: center;
 }
@@ -241,7 +241,7 @@ body, img {
   position: absolute;
   bottom: 28px;
   left: 28px;
-  max-width: 520px;
+  max-width: clamp(520px, 78vw, 1040px);
   color: #ffffff;
   text-align: left;
   text-shadow: 0 10px 28px rgba(0,0,0,0.4);
@@ -251,11 +251,17 @@ body, img {
   font-size: clamp(2rem, 3vw + 1rem, 3.2rem);
   margin: 0 0 0.5rem 0;
   font-weight: 600;
+  white-space: normal;
+  word-break: keep-all;
+  hyphens: auto;
 }
 .hero-overlay p{
   margin: 0;
   font-size: clamp(1rem, 1vw + 0.6rem, 1.2rem);
   line-height: 1.4;
+  white-space: normal;
+  word-break: keep-all;
+  hyphens: auto;
 }
 
 body {
@@ -400,7 +406,7 @@ ul {
     right: 16px;
     text-align: left;
     bottom: 22px;
-    max-width: 90vw;
+    max-width: 92vw;
   }
   .main-nav{
     width: 100%;
@@ -762,8 +768,8 @@ img + button:hover,
   }
   .main-nav a{ font-size: 0.9rem; padding: 7px 10px; width: 100%; text-align: left; }
   .lang-select{ width: 100%; display: flex; justify-content: center; }
-  .court-building-fullwidth{ height: 440px; max-height: 65vh; }
-  .hero-overlay{ left: 12px; right: 12px; bottom: 18px; max-width: 88vw; text-align: left; }
+  .court-building-fullwidth{ height: 572px; max-height: 75vh; }
+  .hero-overlay{ left: 12px; right: 12px; bottom: 18px; max-width: 94vw; text-align: left; }
   .hero-overlay h1{ font-size: clamp(1.25rem, 4vw + 0.35rem, 1.9rem); }
   .hero-overlay p{ font-size: clamp(0.86rem, 3vw + 0.25rem, 1rem); }
   #disciplines{ padding: 1.25rem 1.25rem 0; }
