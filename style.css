@@ -107,8 +107,9 @@ section#disciplines .select-animate {
   width: 100vw;
   display: block;
   margin-left: calc(50% - 50vw);
-  height: 1066px;
-  max-height: 95vh;
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 520px;
   object-fit: cover;
   object-position: center;
 }
@@ -768,7 +769,7 @@ img + button:hover,
   }
   .main-nav a{ font-size: 0.9rem; padding: 7px 10px; width: 100%; text-align: left; }
   .lang-select{ width: 100%; display: flex; justify-content: center; }
-  .court-building-fullwidth{ height: 572px; max-height: 75vh; }
+  .court-building-fullwidth{ height: 100vh; max-height: 100vh; min-height: 420px; }
   .hero-overlay{ left: 12px; right: 12px; bottom: 18px; max-width: 94vw; text-align: left; }
   .hero-overlay h1{ font-size: clamp(1.25rem, 4vw + 0.35rem, 1.9rem); }
   .hero-overlay p{ font-size: clamp(0.86rem, 3vw + 0.25rem, 1rem); }

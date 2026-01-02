@@ -96,10 +96,10 @@ const translations = {
     '#daniil-p2': 'Юридическое образование и практический опыт он получил, в том числе, в международной крупной фирме и за рубежом. Эти этапы сформировали его взгляд на экономические связи, международные вопросы и стратегическое ведение дел.',
     '#daniil-p3': 'Как бывший спортсмен высокого уровня, адвокат Шалумов характеризуется дисциплиной, стрессоустойчивостью и целеустремленностью. То, что необходимо для успеха в спорте, применимо и в работе с клиентами: максимальная вовлеченность, стратегическое мышление и концентрация на наилучшем результате.',
     '#daniil-p4': 'В уголовном и экономическом уголовном праве он разрабатывает точные, реалистично просчитанные стратегии защиты, которые юридически обоснованы и тактически продуманы. Клиенты получают честные советы, последовательное представительство и боевой настрой, подкрепленный юридической точностью.',
-    '#berov-p1': 'Rechtsanwalt Berov ist Partner der Rechtsanwaltskanzlei Shalumov & Partner. Er berät Mandanten schwerpunktmäßig im Ausländer-, Arbeits- und Familienrecht. Als in München zugelassener Rechtsanwalt absolvierte er seine juristische Ausbildung in München, Peking und Brüssel.',
-    '#berov-p2': 'Aufgrund seiner langjährigen beruflichen Tätigkeit in internationalen Großkanzleien sowie bei Behörden, Gerichten und Handelskammern verfügt Rechtsanwalt Berov über ein hohes Maß an fachlicher Kompetenz, strategischem Denkvermögen und einen souveränen Umgang auch mit komplexen rechtlichen Fragestellungen.',
-    '#berov-p3': 'Ein besonderes Anliegen seiner Tätigkeit ist die engagierte rechtliche Begleitung bulgarischer und mazedonischer Mandanten in Deutschland, denen er mit fachlicher Expertise, kulturellem Verständnis und persönlichem Einsatz zur Seite steht – insbesondere in rechtlich und menschlich anspruchsvollen Fällen mit grenzüberschreitendem Bezug.',
-    '#berov-p4': 'Er berät in Bulgarisch, Mazedonisch, Deutsch und Englisch.'
+    '#berov-p1': 'Адвокат Беров — партнер адвокатского бюро Shalumov & Partner. Он консультирует клиентов преимущественно по вопросам миграционного, трудового и семейного права. Как адвокат, допущенный в Мюнхене, он получил юридическое образование в Мюнхене, Пекине и Брюсселе.',
+    '#berov-p2': 'Благодаря многолетней работе в международных юрфирмах, а также опыту в органах власти, судах и торгово-промышленных палатах, адвокат Беров обладает высокой профессиональной компетенцией, стратегическим мышлением и уверенным подходом к сложным правовым вопросам.',
+    '#berov-p3': 'Особое направление его работы — сопровождение болгарских и македонских клиентов в Германии. Он сочетает юридическую экспертизу, культурное понимание и личную вовлеченность, особенно в сложных делах с трансграничным элементом.',
+    '#berov-p4': 'Он консультирует на болгарском, македонском, немецком и английском языках.'
   },
   bg: {
     '#nav-about': 'За нас',
