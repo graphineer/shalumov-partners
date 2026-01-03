@@ -876,12 +876,26 @@ img + button:hover,
 }
 
 .impressum{
-  padding: 2.5rem 2rem 3rem;
-  background: #fff;
-  color: #222;
+  padding: 1rem 1rem 2rem;
+  background: var(--light-beige-background);
+  color: var(--dark-blue);
   line-height: 1.55;
   font-size: 0.9rem;
 }
+.impressum-toggle{
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+}
+.impressum-toggle:hover{ text-decoration: underline; }
+.impressum-toggle:focus-visible{ outline: 2px solid var(--dark-blue); outline-offset: 2px; }
+.impressum-content{ margin-top: 1rem; }
 .impressum h2{ margin-bottom: 1rem; color: #2f2f2f; font-size: 1.05rem; }
 .impressum p{ margin: 0 0 1rem 0; }
 .impressum ul{ padding-left: 1.2rem; margin: 0 0 1rem 0; display: block; }
@@ -890,7 +904,7 @@ img + button:hover,
 .impressum a:hover{ text-decoration: underline; }
 
 @media (max-width: 640px){
-  .impressum{ padding: 2rem 1.25rem; }
+  .impressum{ padding: 1rem 1rem 2rem; }
 }
 
 .animate-fadein {
