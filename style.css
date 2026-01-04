@@ -823,15 +823,15 @@ img + button:hover,
   grid-template-rows: auto auto;
   grid-template-areas:
     "contact-cta contact-cta contact-cta"
-    "phone-number adress adress";
+    "phone-number address address";
 }
 
 .contact-phone {
   grid-area: phone-number;
 }
 
-.contact-adress {
-  grid-area: adress;
+.contact-address {
+  grid-area: address;
 }
 
 .contact-cta {
@@ -869,7 +869,7 @@ img + button:hover,
     grid-template-areas:
       "contact-cta"
       "phone-number"
-      "adress";
+      "address";
   }
   .contact-cta{ justify-content: center; }
   #contact-cta{ width: 100%; }

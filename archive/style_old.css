@@ -235,7 +235,7 @@ h3 {
   background-color: var(--dark-blue);
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-    "phone-number adress space space"
+    "phone-number address space space"
     "space2 empty empty empty";
 }
 
@@ -243,8 +243,8 @@ h3 {
   grid-area: phone-number;
 }
 
-.contact-adress {
-  grid-area: adress;
+.contact-address {
+  grid-area: address;
 }
 
 .contact-grid > div {

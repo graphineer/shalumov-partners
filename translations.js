@@ -6,7 +6,7 @@ const translations = {
     '#nav-berov': 'RA Davor Berov',
     '#nav-contact': 'Kontakt',
     '#headline': 'Ihr Recht verdient vollen Einsatz.',
-    '#slogan': 'Indivduelle Rechtsberatung im Strafrecht, Wirtschaftsstrafrecht und Wirtschaftsrecht.',
+    '#slogan': 'Individuelle Rechtsberatung im Strafrecht, Wirtschaftsstrafrecht und Wirtschaftsrecht.',
     '#expertise-eyebrow': 'UNSERE EXPERTISE',
     '#expertise-title': 'Präzision, Erfahrung und Verlässlichkeit',
     '#expertise-lead': 'Unser Team liefert fokussierte, erfahrene Beratung mit klaren Lösungen und konsequenter Begleitung in jeder Phase Ihres Anliegens.',
