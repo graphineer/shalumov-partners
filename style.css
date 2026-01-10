@@ -1,9 +1,48 @@
 .card p {
   text-align: left;
 }
+
+/* Dark red square marker for practice area cards - using ::before for reliability */
+.cards .card h3 {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.6rem;
+  position: relative;
+}
+.cards .card h3::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  background-color: #8B0000 !important;
+  flex-shrink: 0 !important;
+  margin-top: 0.25rem;
+}
+/* Hide the span markers since we're using ::before now */
+.card h3 .card-marker,
+.cards .card h3 .card-marker,
+span.card-marker {
+  display: none !important;
+}
+
 section#disciplines .select-animate {
   font-style: italic;
 }
+
+/* Contact icons styling */
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.contact-icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
 .slogan-desc {
   margin-bottom: 2.2em;
   margin-top: 0.5em;
@@ -585,28 +624,46 @@ img + button:hover,
   padding: 1.5rem 0 0;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .card {
-  flex: 1 1 calc(33.333% - 2rem); /* Adjust to fit three cards per row with space in between */
-  max-width: 360px; /* Adjust the maximum width of each card */
+  flex: 0 0 calc(33.333% - 1.5rem); /* 3 per row with gap accounted */
+  width: calc(33.333% - 1.5rem);
+  min-height: 280px;
+  max-width: 420px;
   padding: 1.6rem;
   background: #ffffff;
-  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+  box-sizing: border-box;
   border: 1px solid rgba(47, 47, 47, 0.08);
   border-radius: 14px;
   box-shadow: 0 14px 32px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .card h3 {
-  font-size: 1.5rem;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.5rem !important;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: var(--dark-blue); /* Apply the dark shade */
+  color: var(--dark-blue);
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .card p {
   font-size: 1rem;
-  color: var(--dark-blue); /* Apply the same dark shade */
+  color: var(--dark-blue);
+  flex-grow: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 

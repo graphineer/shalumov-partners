@@ -61,23 +61,58 @@
   }
 }
 
-@media (max-width: 600px) {
+/* Mobile phones - 1 card per row, reduced padding */
+@media (max-width: 768px) {
+  .cards {
+    gap: 1rem !important;
+    padding: 1rem 0 !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
   .card {
-    flex: 1 1 100%; /* Full width on smaller screens */
-    max-width: 100%; /* Ensure card can expand to full width */
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    padding: 1.2rem !important;
+  }
+  .card h3 {
+    font-size: 1.2rem !important;
+  }
+  .card p {
+    font-size: 0.95rem !important;
+  }
+  .cards .card h3::before {
+    width: 14px !important;
+    height: 14px !important;
+    min-width: 14px !important;
+    min-height: 14px !important;
+    margin-top: 0.2rem;
+  }
+  #disciplines {
+    padding: 1rem 1rem 0 !important;
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+/* Tablets - 2 cards per row */
+@media (min-width: 769px) and (max-width: 1000px) {
+  .cards {
+    gap: 1.5rem;
+  }
   .card {
-    flex: 1 1 calc(50% - 2rem); /* Two cards per row on medium screens */
-    max-width: 100%; /* Ensure card can expand to fit the container */
+    flex: 0 0 calc(50% - 1rem);
+    width: calc(50% - 1rem);
+    max-width: 100%;
+    min-height: 250px;
   }
 }
 
-@media (min-width: 900px) {
+/* Desktop - 3 cards per row */
+@media (min-width: 1001px) {
   .card {
-    flex: 1 1 calc(33.333% - 2rem); /* Three cards per row on larger screens */
-    max-width: 350px; /* Adjust as needed to match image size */
+    flex: 0 0 calc(33.333% - 1.5rem);
+    width: calc(33.333% - 1.5rem);
+    max-width: 420px;
+    min-height: 280px;
   }
 }
