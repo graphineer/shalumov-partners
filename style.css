@@ -756,6 +756,7 @@ img + button:hover,
 
 .portrait-copy{
   flex: 1 1 0;
+  text-align: justify;
 }
 
 @media (max-width: 900px){
@@ -764,7 +765,7 @@ img + button:hover,
     align-items: flex-start;
     text-align: left;
   }
-  .portrait-copy{ width: 100%; text-align: left; }
+  .portrait-copy{ width: 100%; text-align: justify; }
   .portrait-inline img{ width: 320px; }
 }
 
