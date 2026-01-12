@@ -5,7 +5,7 @@ const translations = {
     '#nav-daniil': 'RA Daniil Shalumov',
     '#nav-berov': 'RA Davor Berov',
     '#nav-contact': 'Kontakt',
-    '#headline': 'Ihr Recht verdient vollen Einsatz.',
+    '#headline': 'Ihr Recht verdient vollen Einsatz',
     '#slogan': 'Individuelle Rechtsberatung im Strafrecht, Wirtschaftsstrafrecht und Wirtschaftsrecht.',
     '#expertise-eyebrow': 'Fokus',
     '#expertise-title': 'Präzision, Erfahrung und Verlässlichkeit',

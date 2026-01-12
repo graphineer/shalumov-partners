@@ -584,13 +584,44 @@ img + button,
   border: 2px solid var(--deep-red);
   margin-top: 3rem;
   margin-left: 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.16s ease, color 0.16s ease, transform 0.12s ease;
+  appearance: none;
 }
 
 img + button:hover,
 .button:hover {
   color: var(--deep-red);
-  background-color: rgba(151,46,73,0.08);
+  background-color: #ffffff;
   border: 2px solid var(--deep-red);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+img + button:active,
+.button:active {
+  transform: translateY(1px);
+  color: var(--deep-red);
+  background-color: #f7f1f3;
+  border-color: var(--deep-red);
+}
+
+.button:focus-visible {
+  outline: 2px solid rgba(151,46,73,0.55);
+  outline-offset: 2px;
+  background-color: #ffffff;
+}
+
+/* Lawyer CTA buttons: full width, stable layout */
+.portrait-text .button{
+  width: 100%;
+  max-width: 100%;
+  margin: 0.85rem 0 0;
+  padding: 0.85rem 1rem;
+  height: auto;
+  border-radius: 12px;
 }
 
 /* disciplines */
