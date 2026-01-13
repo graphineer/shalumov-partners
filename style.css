@@ -36,6 +36,8 @@ section#disciplines .select-animate {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
 }
 .contact-icon {
   display: inline-block;
