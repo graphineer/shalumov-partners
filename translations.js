@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       }
     }
     if(disciplines){
-      disciplines.style.paddingBottom = targetLang === 'ru' ? '5rem' : '';
+      disciplines.style.paddingBottom = targetLang === 'ru' ? '5rem' : '0';
     }
   }
 
