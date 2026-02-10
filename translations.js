@@ -259,6 +259,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const targetLang = translations[lang] ? lang : 'de';
     applyTranslations(targetLang);
     if(select) select.value = targetLang;
+    const cards = document.querySelector('#disciplines .cards');
+    const disciplines = document.getElementById('disciplines');
+    if(cards){
+      if(targetLang === 'ru'){
+        cards.style.display = 'none';
+      } else {
+        cards.style.display = '';
+      }
+    }
+    if(disciplines){
+      disciplines.style.paddingBottom = targetLang === 'ru' ? '5rem' : '';
+    }
   }
 
   if(select){
