@@ -172,6 +172,12 @@ section#disciplines .select-animate {
   text-align: left;
   padding: 2rem 2rem 0;
 }
+#disciplines.disciplines--compact{
+  padding-bottom: 1.5rem;
+}
+.disciplines--compact + .lawyers-section{
+  margin-top: 0.5rem;
+}
 #headline{ margin: 0 0 0.6rem 0; padding: 0; }
 #slogan{ margin: 0 0 1.1rem 0; padding: 0; }
 #expertise{ margin: 1.4rem 0 0 0; padding: 0; }
