@@ -709,7 +709,8 @@ img + button:active,
 /* portrait */
 
 #portrait,
-#portrait-berov {
+#portrait-berov,
+#portrait-michael {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -835,7 +836,8 @@ img + button:active,
 
 @media (max-width: 900px){
   #portrait,
-  #portrait-berov{
+  #portrait-berov,
+  #portrait-michael{
     flex-direction: column;
     align-items: flex-start;
     padding: 1.35rem 1.2rem;
